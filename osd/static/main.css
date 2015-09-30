@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'DroidSansBold';
+  src: url('fonts/DroidSans-Bold.ttf'); /* IE9 Compat Modes */
+  src: url('fonts/DroidSans-Bold.ttf') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/DroidSans-Bold.ttf') format('woff2'), /* Super Modern Browsers */
+}
+
+.content {
+    padding-top: 80px;
+}
+
+h2 {
+    font-family: 'DroidSansBold', sans-serif;
+    color: #000;
+}
+nav, .navbar {
+    background-color: #fff;
+    border: none;
+}
+
+html{
+  .background-image(linear-gradient(135deg, #4ebdc0, #53c9b3));
+  height: 100%;
+}
+
+.container {
+    text-align: center;
+}
+
+#DateCountdown {
+    width: 80%;
+    text-align: center;
+    margin-top: 150px;
+}
+#date-header{
+    float: left; 
+    padding-top: 50px; 
+
+}
+#date-header h3 {
+    float: left;
+    margin-top: 0px;
+}
+a{
+    text-decoration: underline;
+}
